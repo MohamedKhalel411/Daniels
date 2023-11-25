@@ -287,9 +287,9 @@ body:has(.contact:target) li a[href="#contact"]
         width: 90%;
     }
     .about-layer{
-        top: 33px;
-        right: 69px;
-        display: none;
+        top: -34px;
+        right: 48px;
+        height: 115%;
     }
     #hero{
         width: 100% !important;
