@@ -268,6 +268,12 @@ body:has(.contact:target) li a[href="#contact"]
     top: 90px;
     right: 90px;
 }
+@media screen and (max-width: 600px) {
+    .about-layer{
+        top: 33px;
+        right: 69px;
+    }
+}
 .move{
     left: 80px;
 }
@@ -293,8 +299,6 @@ body:has(.contact:target) li a[href="#contact"]
     color: #343434;
 
 }
-
-
 .about-content p span{
     color: rgba(0, 0, 0, 0.559);
     font-weight: 900;
@@ -443,6 +447,12 @@ body:has(.contact:target) li a[href="#contact"]
 .carousel-indicators [data-bs-target]:hover{
     background-color: #869791;
 }
+@media screen and (max-width: 600px) {
+    .carousel-item .clients-card img{
+        width: 25%;
+    }
+}
+
 .carousel-item .clients-card h5{
     color: #343434;
 
